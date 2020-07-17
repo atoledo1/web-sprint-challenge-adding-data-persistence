@@ -2,7 +2,7 @@
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **Data Persistence**. During this sprint, you studied **RDBMS, including SQL, multi-table queries, and data modeling**. In your challenge this week, you will demonstrate your mastery of these skills by creating **a database based on given specifications**.
+This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored **Data Persistence**. During this sprint, you studied **RDBMS, including SQL, multi-table queries, and data modeling**. In your challenge this week, you will demonstrate your mastery of these skills by creating **a database based on given specifications**..
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
@@ -48,11 +48,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+Relational Databases- Made up of tables, it stores data in rows and columnns. 
+SQL - a standard language that we use to communicate and interact with databases. 
+
 2. Why do tables need a `primary key`?
+
+They need it so each entry on the databases is identified. This lets us pull the exact data we want in order to act on it (delete, edit, etc ) or read it. 
 
 3. What is the name given to a table column that references the primary key on another table.
 
+The name given to it is foreign key and thanks to that we can reference data from a different table. 
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+We need to have data that can be accessed from multiple tables and also tables that can access the different data. We do this by using foreign keys in an intermediary table and following appropiate data modeling. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
